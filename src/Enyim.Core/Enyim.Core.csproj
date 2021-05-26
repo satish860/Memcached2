@@ -10,6 +10,8 @@
     <AssemblyTitle>Enyim.Core</AssemblyTitle>
     <Description>Core classes for all Enyim.* libraries</Description>
     <IsPackable>true</IsPackable>
+    <PackageId>memcache.community-beta</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
